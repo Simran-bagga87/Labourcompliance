@@ -41,7 +41,7 @@ states = ["Karnataka","Maharashtra","Delhi","Tamil Nadu","UP"]
 # UI
 # ----------------------------
 
-st.title("Establishment Details (Mandatory)")
+st.title("Establishment Details")
 
 name = st.text_input("Establishment Name")
 
