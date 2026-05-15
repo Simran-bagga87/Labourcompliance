@@ -40,9 +40,8 @@ states = ["Karnataka","Maharashtra","Delhi","Tamil Nadu","UP"]
 # ----------------------------
 # UI
 # ----------------------------
-st.title("Labour Compliance System")
 
-st.header("Establishment Details (Mandatory)")
+st.title("Establishment Details (Mandatory)")
 
 name = st.text_input("Establishment Name")
 
