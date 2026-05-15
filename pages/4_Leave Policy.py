@@ -15,8 +15,9 @@ st.title("Leave Policy Management")
 # -----------------------------
 # SUPABASE CONNECTION
 # -----------------------------
-url = "https://rlkuybqydwrzrcyyosjp.supabase.co"
-key = "sb_publishable_rjAdZJ8AU9FHSVWRR4bvmQ_RctfF2KD"
+url = st.secrets["SUPABASE_URL"]
+key = st.secrets["SUPABASE_KEY"]
+
 supabase = create_client(url, key)
 
 # -----------------------------
